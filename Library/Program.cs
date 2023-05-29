@@ -10,6 +10,11 @@ namespace Library
     {
         static void Main(string[] args)
         {
+            roleChoose();
+            Console.ReadLine();
+        }  
+        static void roleChoose()
+        {
             while (true)
             {
                 Console.WriteLine("Introduce yourself.");
@@ -37,7 +42,6 @@ namespace Library
                     Console.WriteLine("Invalid number plz try again.");
                 }
             }
-            Console.ReadLine();
-        }       
+        }
     }
  }   
